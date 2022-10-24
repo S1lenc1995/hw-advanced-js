@@ -1,0 +1,25 @@
+<script>
+   /*  Даний об'єкт employee. Додайте до нього властивості age і salary, не змінюючи початковий об'єкт (має бути створено новий об'єкт, який включатиме всі необхідні властивості). Виведіть новий об'єкт у консоль. */
+
+const employee = {
+  name: 'Vitalii',
+  surname: 'Klichko'
+}
+ 
+
+ let employee2 = {...employee, age:24, salary:10000} 
+
+/*  const {name: needName, surname: needLastName, age =  24, salary = 10000} = employee;  */
+
+/* let fullObj = Object.assign({}, employee);
+fullObj.age = 27;
+fullObj.salary = 10000 + '$'
+
+console.log(name)  */
+console.log(employee)
+console.log(employee2)  
+
+
+
+
+</script>
